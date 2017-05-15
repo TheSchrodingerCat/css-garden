@@ -1,1 +1,24 @@
-/* Agrega aquí tus estilos*/
+*{
+	font-family: 'Architects Daughter', cursive;
+}
+
+body{
+	background-color: #F5E1E3;
+	/*color: #9578A2;*/
+	margin: auto;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+}
+
+a:link{
+	color: #E32781;
+}
+
+a:visited{
+	color: #6F3450;
+}
