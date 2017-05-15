@@ -3,7 +3,9 @@
 }
 
 body{
-	background-color: #F5E1E3;
+	/*background-color: #F5E1E3;*/
+	opacity:background-image 0;
+	background-image: url(../images.jpg);
 	/*color: #9578A2;*/
 	margin: auto;
 	text-align: center;
@@ -21,4 +23,23 @@ a:link{
 
 a:visited{
 	color: #6F3450;
+}
+
+h1{
+	font-size: 50px;
+	color: #5F8344;
+}
+
+h2{
+	color: #74B741;
+}
+
+p{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+ul{
+	margin-left: 37%;
+	text-align: left;
 }
