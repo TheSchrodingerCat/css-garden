@@ -3,10 +3,7 @@
 }
 
 body{
-	/*background-color: #F5E1E3;*/
-	opacity:background-image 0;
 	background-image: url(../images.jpg);
-	/*color: #9578A2;*/
 	margin: auto;
 	text-align: center;
 }
@@ -14,11 +11,13 @@ body{
 a{
 	text-decoration: none;
 	font-family: 'Teko', sans-serif;
+	color: #E32781;
 	font-size: 25px;
 }
 
-a:link{
-	color: #E32781;
+a:hover{
+	color: #20B8A5;
+	transition:color 0.5s;
 }
 
 a:visited{
@@ -33,9 +32,27 @@ h1{
 	margin-right: 30%;
 }
 
+h1:before, h1:after{
+	content:url(../flower.jpg);
+	width:15px;
+	background: #FFFFFF;
+	z-index:-1;
+}
+
+h1:before{
+	left:25%;
+}
+
+h1:after{
+	right:25%;
+}
+
 h2{
+	font-family: 'Rochester', cursive;
 	background-color: #FFFFFF;
-	color: #74B741;
+	color: #20B8A5;
+	font-size: 30px;
+	/*color: #74B741;*/
 	margin-left: 27%;
 	margin-right: 27%;
 }
@@ -43,8 +60,17 @@ h2{
 h3{
 	color: #938798;
 	background-color: #FFFFFF;
-	width: 20%;
+	width: 28%;
 	text-align: center;
+}
+
+h3:hover{
+	background-color: whitesmoke;
+	color: #414241;
+	width: 38%;
+	font-size: 23px;
+	transition:background-color 0.6s; 
+	transition:width 0.9s;
 }
 
 p{
@@ -64,10 +90,12 @@ div section div, .explanation, .participation, .benefits, .requirements{
 	font-size: 20px;
 }
 
-.select, .archives, .resources{
+aside div div .select, .archives, .resources{
 	text-align: center;
 	color: #646264;
 	background-color: #FFFFFF;
 	margin-left: 37%;
 	margin-right: 37%;
 }
+
+
