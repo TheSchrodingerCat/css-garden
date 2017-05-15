@@ -26,20 +26,48 @@ a:visited{
 }
 
 h1{
+	background-color: #FFFFFF;
 	font-size: 50px;
 	color: #5F8344;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 
 h2{
+	background-color: #FFFFFF;
 	color: #74B741;
+	margin-left: 27%;
+	margin-right: 27%;
+}
+
+h3{
+	color: #938798;
+	background-color: #FFFFFF;
+	width: 20%;
+	text-align: center;
 }
 
 p{
+	background-color: whitesmoke;
 	margin-right: 100px;
 	margin-left: 100px;
 }
 
 ul{
+	background-color: #F8C6E6;
 	margin-left: 37%;
+	margin-right: 37%;
 	text-align: left;
+}
+
+div section div, .explanation, .participation, .benefits, .requirements{
+	font-size: 20px;
+}
+
+.select, .archives, .resources{
+	text-align: center;
+	color: #646264;
+	background-color: #FFFFFF;
+	margin-left: 37%;
+	margin-right: 37%;
 }
